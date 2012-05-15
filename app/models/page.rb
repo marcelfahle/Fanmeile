@@ -1,3 +1,3 @@
 class Page < ActiveRecord::Base
-  attr_accessible :content, :name, :title, :type
+  attr_accessible :content, :name, :page_type, :title
 end
