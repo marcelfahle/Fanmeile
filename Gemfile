@@ -17,6 +17,7 @@ group :assets do
 end
 
 gem 'jquery-rails'
+gem "friendly_id", "~> 4.0.1"
 
 group :test do
   gem 'rspec-rails'

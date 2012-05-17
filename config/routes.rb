@@ -1,12 +1,14 @@
 Fanmeile::Application.routes.draw do
 
-  resources :pages
+  scope ":locale" do
+    resources :pages
+  end
 
   namespace :admin do 
     resources :pages
   end
 
-  root :to => 'welcome#index'
+  root :to => 'pages#show', :id => 'programm'
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

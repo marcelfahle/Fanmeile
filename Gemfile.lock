@@ -63,6 +63,7 @@ GEM
     execjs (1.3.2)
       multi_json (~> 1.0)
     ffi (1.0.11)
+    friendly_id (4.0.4)
     gherkin (2.10.0)
       json (>= 1.4.6)
     guard (1.0.3)
@@ -170,6 +171,7 @@ DEPENDENCIES
   coffee-rails (~> 3.2.1)
   cucumber-rails
   database_cleaner
+  friendly_id (~> 4.0.1)
   guard-cucumber
   guard-spork
   jquery-rails
