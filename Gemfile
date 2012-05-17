@@ -24,12 +24,17 @@ group :test do
   gem 'cucumber-rails'
   gem 'database_cleaner'
   gem 'vcr'
+  gem 'capybara'
   gem 'webmock'
 end
 
 group :development do
   gem 'guard-spork'
   gem 'guard-cucumber'
+end
+
+group :production do
+  gem 'pg'
 end
 
 # Deploy with Capistrano
