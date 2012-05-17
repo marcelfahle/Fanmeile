@@ -1,7 +1,6 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.3'
-gem 'sqlite3'
 
 
 # Gems used only for assets and not required
@@ -20,6 +19,7 @@ gem 'jquery-rails'
 gem "friendly_id", "~> 4.0.1"
 
 group :development, :test do
+  gem 'sqlite3'
   gem 'rspec-rails'
   gem 'cucumber-rails'
   gem 'database_cleaner'
