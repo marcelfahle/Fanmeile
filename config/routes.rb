@@ -1,14 +1,19 @@
 Fanmeile::Application.routes.draw do
 
-  scope ":locale" do
-    resources :pages
+
+  scope ":locale", locale: /#{I18n.available_locales.join("|")}/  do
+    match 'pages/:action', :controller => "pages"
+    root to: 'pages#home'
   end
 
-  namespace :admin do 
-    resources :pages
-  end
+  match '*path', to: redirect("/#{I18n.default_locale}/%{path}"), constraints: lambda { |req| !req.path.starts_with? "/#{I18n.default_locale}/" }
+  match '', to: redirect("/#{I18n.default_locale}")
 
-  root :to => 'pages#show', :id => 'programm'
+  #namespace :admin do 
+    #resources :pages
+  #end
+
+  #root :to => 'pages/show'
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

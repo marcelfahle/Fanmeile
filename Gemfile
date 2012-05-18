@@ -21,13 +21,15 @@ gem "friendly_id", "~> 4.0.1"
 group :development, :test do
   gem 'sqlite3'
   gem 'rspec-rails'
-  gem 'cucumber-rails'
   gem 'database_cleaner'
   gem 'vcr'
   gem 'capybara'
   gem 'webmock'
   gem 'guard-spork'
   gem 'guard-cucumber'
+end
+group :test do
+  gem 'cucumber-rails'
 end
 
 
