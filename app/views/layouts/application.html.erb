@@ -27,7 +27,13 @@
   <h1>HYUNDAI FanPark</h1>
 
   <ul>
-    <li></li>
+    <li><%= link_to t("pages.home.title"), controller: "pages", action: "home"  %></li>
+    <li><%= link_to t("pages.fanfest.title"), controller: "pages", action: "fanfest"  %></li>
+    <li><%= link_to t("pages.faq.title"), controller: "pages", action: "faq"  %></li>
+    <li><%= link_to t("pages.review.title"), "http://facebook.com"  %></li>
+    <li><%= link_to t("pages.press.title"), controller: "pages", action: "press"  %></li>
+    <li><%= link_to t("pages.hyundai.title"), "http://facebook.com"  %></li>
+    <li><%= link_to t("pages.cocacola.title"), "http://facebook.com"  %></li>
   </ul>
 
   </header>

@@ -3,5 +3,17 @@
 
 en:
   pages:
-    program:
+    home:
       title: "Programme"
+    fanfest:
+      title: "Fanfest Berlin"
+    faq:
+      title: "FAQ"
+    review:
+      title: "Review"
+    press:
+      title: "Press"
+    hyundai:
+      title: "Hyundai: Mission Auswärtsspiel"
+    cocacola:
+      title: "Coca-Cola Fankurve"

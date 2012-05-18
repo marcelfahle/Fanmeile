@@ -2,7 +2,7 @@ Fanmeile::Application.routes.draw do
 
 
   scope ":locale", locale: /#{I18n.available_locales.join("|")}/  do
-    match 'pages/:action', :controller => "pages"
+    match ':action', :controller => "pages"
     root to: 'pages#home'
   end
 

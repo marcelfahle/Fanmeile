@@ -1,4 +1,16 @@
 de:
   pages:
-    program:
+    home:
       title: "Programm"
+    fanfest:
+      title: "Fanmeile Berlin"
+    faq:
+      title: "FAQ"
+    review:
+      title: "Rückblick"
+    press:
+      title: "Presse"
+    hyundai:
+      title: "Hyundai: Mission Auswärtsspiel"
+    cocacola:
+      title: "Coca-Cola Fankurve"
