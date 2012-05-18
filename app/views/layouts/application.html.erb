@@ -19,26 +19,36 @@
 </head>
 <body>
   <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
-  <header>
-  <ul id="langswitch">
-    <li><%= link_to_unless_current "DEUTSCH", locale: "de" %></li>
-    <li><%= link_to_unless_current "ENGLISH", locale: "en" %></li>
-    </ul>
-  <h1>HYUNDAI FanPark</h1>
+  <div id="pagewrap">
 
-  <ul>
-    <li><%= link_to t("pages.home.title"), controller: "pages", action: "home"  %></li>
-    <li><%= link_to t("pages.fanfest.title"), controller: "pages", action: "fanfest"  %></li>
-    <li><%= link_to t("pages.faq.title"), controller: "pages", action: "faq"  %></li>
-    <li><%= link_to t("pages.review.title"), "http://facebook.com"  %></li>
-    <li><%= link_to t("pages.press.title"), controller: "pages", action: "press"  %></li>
-    <li><%= link_to t("pages.hyundai.title"), "http://facebook.com"  %></li>
-    <li><%= link_to t("pages.cocacola.title"), "http://facebook.com"  %></li>
-  </ul>
+    <header>
+      <ul id="langswitch">
+        <li><%= link_to_unless_current "DEUTSCH", locale: "de" %></li> <span>|</span>
+        <li><%= link_to_unless_current "ENGLISH", locale: "en" %></li>
+      </ul>
 
-  </header>
-  <div role="main">
-    <%= yield %>
+      <h1>HYUNDAI Fan Park Berlin</h1>
+
+      <nav>
+        <ul id="mainnav">
+          <li><%= link_to t("pages.home.title"), controller: "pages", action: "home"  %></li>
+          <li><%= link_to t("pages.fanfest.title"), controller: "pages", action: "fanfest"  %></li>
+          <li><%= link_to t("pages.faq.title"), controller: "pages", action: "faq"  %></li>
+          <li><%= link_to t("pages.review.title"), "http://facebook.com"  %></li>
+          <li><%= link_to t("pages.press.title"), controller: "pages", action: "press"  %></li>
+          <li><%= link_to t("pages.hyundai.title"), "http://facebook.com"  %></li>
+          <li><%= link_to t("pages.cocacola.title"), "http://facebook.com"  %></li>
+        </ul>
+      </nav>
+
+    </header>
+    <div role="main" id="mainwrapper">
+
+
+
+      <%= yield %>
+
+    </div>
 
   </div>
   <footer>
