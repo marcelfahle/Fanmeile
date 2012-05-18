@@ -24,10 +24,10 @@ header {
     margin-top: 206px;
   }
   #langswitch {
-    width: 135px;
+    width: 127px;
     background-color: #FFF;
     display: inline;
-    font-size: 12px;
+    font-size: 13px;
     overflow: hidden;
     padding: 0;
     margin: 0;
@@ -47,11 +47,16 @@ header {
       background: #fff;
     }
 
+    span {
+      color: #323232 ;
+    }
   }
 
   li {
     display: inline;
     list-style: none;
+    padding-left: 3px;
+
   }
 
 
@@ -63,12 +68,13 @@ header {
       display: inline;
       margin: 0 auto;
       color: #323232;
-      font-size: 17px;
+      font-size: 16px;
 
       li {
         display: inline;
         list-style: none;
         margin: 0 8px;
+        text-transform: uppercase;
 
         a {
           text-decoration: none;
