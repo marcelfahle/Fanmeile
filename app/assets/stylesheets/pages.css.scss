@@ -20,6 +20,18 @@
       color: #bdeb05;
     }
   }
+  h4 {
+    margin: 0px;
+    text-align: center;
+    text-transform: uppercase;
+    background: url('line-5dot-fullwidth.png') 0px 1px no-repeat;
+    font-size: 18px;
+    height: 15px;
+
+    span {
+      background: url('headline-bg-5px1.png');
+    }
+  }
   .facebook {
     text-align: center;
     img {
@@ -30,8 +42,28 @@
   }
   .highlights {
     margin-top: 45px;
+    margin-bottom: 150px;
     width:949px;
     height: 508px;
+
+    .slidedeck_frame {
+      margin-bottom: 0;
+    }
+  }
+  .schedule {
+    
+    h3 {
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      font-size: 25px;
+      text-transform: uppercase;
+      height: 19px;
+      background: url('line-7dot-fullwidth.png') 0px 0px no-repeat;
+      padding-top: 2px;
+      span {
+      }
+    }
   }
 }
 
