@@ -5,4 +5,6 @@ footer {
   margin: 0 auto;
   background: transparent url('footer-bg.png') top center repeat-x;
   margin-top: -220px;
+  position: relative;
+  z-index: 1000;
 }

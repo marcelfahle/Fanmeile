@@ -3,5 +3,18 @@
 <div class="facebook">
   <%= render :partial => "facebook" %>
 </div>
+<div class="highlights">
+  <div id="slidedeck_frame" class="slidedeck_frame skin-gedankenwerk" style="width: 949px; height: 508px; ">
+    <%= render :partial => "highlights" %>
+    <%= render "shared/highlights_nav" %>
+  </div>
+</div>
+  <div class="divider dot5">
+  </div>
 <h2><%= t "pages.home.title" %></h2>
-<p>Find me in app/views/pages/home.html.erb</p>
+
+<script type="text/javascript">
+  $('.slidedeck').slidedeck({
+    hideSpines: true
+  });
+</script>

@@ -4,6 +4,7 @@
 
 
 #mainwrapper {
+  padding-bottom: 150px;
   h2 {
     font-size: 27px;
     text-align: center;
@@ -27,4 +28,14 @@
     iframe {
     }
   }
+  .highlights {
+    margin-top: 45px;
+    width:949px;
+    height: 508px;
+  }
+}
+
+.divider.dot5 {
+  background: url('line-5dot-fullwidth.png') no-repeat;
+  height: 13px;
 }
