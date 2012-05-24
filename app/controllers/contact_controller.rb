@@ -1,17 +1,8 @@
-class PagesController < ApplicationController
-  def home
-  end
-
-  def fanfest
-  end
-
-  def faq
-  end
-
-  def press
+class ContactController < ApplicationController
+  def new
     @message = Message.new
   end
-  
+
   def create
     @message = Message.new(params[:message])
 

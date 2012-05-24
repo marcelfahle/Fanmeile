@@ -1,5 +1,7 @@
 Fanmeile::Application.routes.draw do
 
+  match 'contact' => 'contact#new', :as => 'contact', :via => :get
+  match 'contact' => 'contact#create', :as => 'contact', :via => :post
 
   scope ":locale", locale: /#{I18n.available_locales.join("|")}/  do
     match ':action', :controller => "pages"
@@ -8,6 +10,7 @@ Fanmeile::Application.routes.draw do
 
   match '*path', to: redirect("/#{I18n.default_locale}/%{path}"), constraints: lambda { |req| !req.path.starts_with? "/#{I18n.default_locale}/" }
   match '', to: redirect("/#{I18n.default_locale}")
+
 
   #namespace :admin do 
     #resources :pages

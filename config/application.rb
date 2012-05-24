@@ -55,5 +55,21 @@ module Fanmeile
 
     # Version of your assets, change this if you want to expire all your assets
     config.assets.version = '1.0'
+
+    config.action_mailer.smtp_settings = {
+      :address              => "gedankenwerk.com",
+      :port                 => 587,
+      :domain               => "gedankenwerk.com",
+      :user_name            => "marcel.fahle@gedankenwerk.com",
+      :password             => "huhahu123",
+      :authentication       => :plain,
+      :enable_starttls_auto => true
+    }
+
+    config.action_mailer.default_url_options = {
+      :host => "gedankenwerk.com"
+    }
+
+
   end
 end

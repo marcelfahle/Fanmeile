@@ -14,6 +14,18 @@ de:
       title: "Rückblick"
     press:
       title: "Presse"
+      teaser: "Die <span>Fanmeile Berlin</span> 2012 wird in der Medienwelt großes Interesse auslösen. Zur besseren und problemlosen Versorgung der verschiedenen Medienvertreter werden Medien-Meetingpoints und eine Medien-Tribüne eingerichtet."
+      formhead: "Ihre Akkreditierung"
+      contacthead: "Pressekontakt"
+      fname: "Vorname, Nachname*"
+      ftype: "Medium*"
+      fphone: "Telefonnummer*"
+      ffax: "Faxnummer"
+      femail: "E-Mail*"
+      ffunction: "Funktion"
+      fpressid: "Presseausweisnummer*"
+      mandatory: "* Pflichtfelder"
+      fsendbutton: "/assets/button-send-de.png"
     hyundai:
       title: "Hyundai: Mission Auswärtsspiel"
     cocacola:

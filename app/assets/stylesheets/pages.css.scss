@@ -23,6 +23,9 @@
   h3.left {
     text-align: left;
   }
+  h3.lower {
+    text-transform:none; 
+  }
   h4 {
     margin: 0px;
     text-align: center;
@@ -186,6 +189,45 @@
       margin-top: 52px;
     }
   }
+}
+.form {
+  margin: 0 auto;
+  text-align: center;
+
+  label {
+    width: 200px;
+    display: inline-block;
+    text-align: right;
+  }
+
+  input[type=text] {
+    background: transparent url('inputform.png') no-repeat;
+    height: 32px;
+    width: 290px;
+    border: none;
+    color: white;
+    padding-left: 4px;
+
+  }
+  span {
+    display: inline-block;
+    width: 290px;
+    text-align: left;
+  }
+  .actions {
+    margin-top: 20px;
+  }
+}
+h5.press {
+  color: #bdeb05;
+  font-size: 26px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 38px;
+  margin-top: 70px;
+}
+.contact {
+  text-align:center;
 }
 .block.ad {
   padding-top: 27px;

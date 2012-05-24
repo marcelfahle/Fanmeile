@@ -1,2 +1,61 @@
 <h2><%= t "pages.press.title" %></h2>
-<p>Find me in app/views/pages/press.html.erb</p>
+<h3 class="teaser lower"><%= t("pages.press.teaser").html_safe %></h3>
+
+<h5 class="press"><%= t "pages.press.formhead" %></h5>
+<div class="form">
+  <%= form_for @message, :url => contact_path do |form| %>
+    <fieldset class="fields">
+      <div class="field">
+        <%= form.label :name,  t("pages.press.fname")%>
+        <%= form.text_field :name %>
+      </div>
+
+      <div class="field">
+        <%= form.label :type,  t("pages.press.ftype")%>
+        <%= form.text_field :type %>
+      </div>
+
+      <div class="field">
+        <%= form.label :phone, t("pages.press.fphone")%>
+        <%= form.text_field :phone %>
+      </div>
+
+      <div class="field">
+        <%= form.label :fax, t("pages.press.ffax")%>
+        <%= form.text_field :fax %>
+      </div>
+
+      <div class="field">
+        <%= form.label :email, t("pages.press.femail")%>
+        <%= form.text_field :email %>
+      </div>
+
+      <div class="field">
+        <%= form.label :ffunction, t("pages.press.ffunction")%>
+        <%= form.text_field :ffunction %>
+      </div>
+
+      <div class="field">
+        <%= form.label :pressid, t("pages.press.fpressid")%>
+        <%= form.text_field :pressid %>
+      </div>
+
+
+    </fieldset>
+
+    <fieldset class="actions">
+      <div class="field">
+        <%= form.label "foo", t("pages.press.mandatory")%>
+        <span><%= image_submit_tag t("pages.press.fsendbutton") %></span>
+      </div>
+    </fieldset>
+  <% end %>
+</div>
+
+
+<div class="contact">
+  <h5 class="press"><%= t "pages.press.contacthead" %></h5>
+  <p>B2 talk+tv produktion GmbH<br/>
+  Tel.: + 49 30 97 00 48 33<br/>
+  E-Mail: info@b2-berlin.de</p>
+</div>
