@@ -33,7 +33,7 @@
         <ul id="mainnav">
           <li class="home_nav"><%= link_to t("pages.home.title"), controller: "pages", action: "home"  %></li>
           <li class="fanfest_nav"><%= link_to t("pages.fanfest.title"), controller: "pages", action: "fanfest"  %></li>
-          <li class="faq_nav"><%= link_to t("pages.faq.title"), controller: "pages", action: "faq"  %></li>
+          <li class="faq_nav"><%= link_to t("pages.faq.shorttitle"), controller: "pages", action: "faq"  %></li>
           <li><%= link_to t("pages.review.title"), "http://facebook.com/gedankenwerk", target: "_blank"  %></li>
           <li class="press_nav"><%= link_to t("pages.press.title"), controller: "pages", action: "press"  %></li>
           <li><%= link_to t("pages.hyundai.title"), "http://www.hyundai.de/auswaertsspiel", target: "_blank"  %></li>
@@ -52,7 +52,48 @@
 
   </div>
   <footer>
+    
+    <p class="sponsors">Hyundai Fan Park Berlin</p>
+    <div id="footercontent">
+        
+      <div class="footercol">
+        <h6>Navigation</h6>
+        <ul id="footernav">
+          <li><%= link_to t("pages.home.title"), controller: "pages", action: "home"  %></li>
+          <li><%= link_to t("pages.fanfest.title"), controller: "pages", action: "fanfest"  %></li>
+          <li><%= link_to t("pages.faq.shorttitle"), controller: "pages", action: "faq"  %></li>
+          <li><%= link_to t("pages.review.title"), "http://facebook.com/gedankenwerk", target: "_blank"  %></li>
+          <li><%= link_to t("pages.press.title"), controller: "pages", action: "press"  %></li>
+          <li><%= link_to t("pages.hyundai.title"), "http://www.hyundai.de/auswaertsspiel", target: "_blank"  %></li>
+          <li><%= link_to t("pages.cocacola.title"), "http://euro2012.coke.com/de_DE", target: "_blank"  %></li>
+        </ul>
+      </div>
 
+
+      <div class="footercol">
+         <h6>Anbieter</h6>
+         <p>Eine Produktion der K.I.T. Group Berlin in 
+         Kooperation mit Compact Team Berlin & 
+         Wohlthat Entertainment Berlin</p>
+         <h6>Kontakt</h6>
+         <p>E-mail: team@fanmeile-berlin.com<br/>
+         www.fanmeile-berlin.com <br/>
+         Tel: +49 30 24603 284<br/>
+         Fax: +49 30 24603 200</p>
+      </div>
+
+
+      <div class="footercol">
+         <h6>Mehr</h6>
+         <p>Weiterempfehlen</p>
+          <%= link_to image_tag(t("footer.fbimg"), :alt => "Besuche unsere Facebook Fanpage"), "http://facebook.com/gedankenwerk" %>
+         <h6>design und umsetzung</h6>
+         <p>gedankenwerk - agentur für neue medien<br/>
+         gentweg 10<br/>
+         45356 essen<br/>
+         www.gedankenwerk.com</p>
+      </div>
+    </div>
   </footer>
 
   <script>

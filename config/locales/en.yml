@@ -13,6 +13,7 @@ en:
       teaser: "<span>Berlin</span> hat mit seiner <span>Fanmeile</span> zu den internationalen Fussball-Großereignissen 2006, 2008 und 2010 weltweit für Furore, Aufsehen und Sympathie für die deutsche Hauptstadt und für Deutschland gesorgt."
     faq:
       title: "FAQ"
+      shorttitle: "FAQ"
     review:
       title: "Review"
     press:
@@ -33,3 +34,5 @@ en:
       title: "Hyundai: Mission Auswärtsspiel"
     cocacola:
       title: "Coca-Cola Fankurve"
+  footer:
+    fbimg: "fb-link-de.png"
