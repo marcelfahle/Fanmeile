@@ -84,7 +84,7 @@ header {
           color: #323232;
         }
         a:hover, a:active {
-          color: #92b505;
+          color: #bdeb05;
           background: #fff;
         }
 
@@ -96,6 +96,10 @@ header {
 
 
 }
+body.home .home_nav a { color: #bdeb05 !important; }
+body.fanfest .fanfest_nav a { color: #bdeb05 !important; }
+body.faq .faq_nav a { color: #bdeb05 !important; }
+body.press .press_nav a { color: #bdeb05 !important; }
 #mainwrapper {
   width: 952px;
   padding: 25px 100px 25px 100px;
