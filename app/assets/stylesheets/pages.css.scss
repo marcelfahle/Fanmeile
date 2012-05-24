@@ -42,7 +42,7 @@
   }
   .highlights {
     margin-top: 45px;
-    margin-bottom: 150px;
+    margin-bottom: 72px;
     width:949px;
     height: 508px;
 
@@ -51,7 +51,7 @@
     }
   }
   .schedule {
-    
+
     h3 {
       margin: 0;
       padding: 0;
@@ -65,7 +65,108 @@
       }
     }
   }
+  .hyundai {
+    width: 478px;
+    height: 43px;
+    background: url('hyundai-mid-logo.gif') no-repeat;
+    text-indent: -999em;
+    margin: 0 auto;
+    margin-bottom: 40px;
+  }
 }
+
+.block {
+  width: 297px;
+  float: left;
+
+  h5 {
+    font-size: 55px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    margin-top: 42px;
+
+    span {
+      color: #bdeb05;
+    }
+    .small {
+      font-size: 36px;
+      text-transform: lowercase;
+    }
+  }
+  h6 {
+    color: #0467c9;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-top: 14px;
+    margin-bottom: 8px;
+  }
+  dl {
+    font-size: 14px;
+    border-left: 1px white solid;
+    height: 190px;
+
+    dt {
+      width: 45px;
+      position: relative;
+      margin-left: 10px;
+      margin-bottom: 0;
+      line-height: 10px;
+    }
+    dd {
+      margin: 0 0 0 60px;
+      line-height: 10px;
+      padding: 0px;
+      position: relative;
+      top: -10px;
+    }
+  }
+  .highlight {
+    color: #bdeb05;
+  }
+  .past {
+    border-left: 1px solid white;
+    height: 190px;
+
+    p {
+      font-weight: bold;
+      font-size: 15px;
+      margin-left: 10px;
+
+      a {
+        color: #fff;
+        text-decoration: none;
+        background: none;
+      }
+    }
+    p.videos, p.photos {
+      padding-left: 10px;
+      padding-top: 8px;
+      width: 215px;
+      height: 35px;
+      a { text-decoration: none;  }
+    }
+    p.videos {
+      background: url('arrow-blue.png') no-repeat;
+    }
+    p.photos {
+      background: url('arrow-green.png') no-repeat;
+    }
+    p.head {
+      margin-bottom: 0px;
+    }
+    p.highlight{
+      margin-top: 8px;
+    }
+    div {
+      margin-top: 52px;
+    }
+  }
+}
+.block.ad {
+  padding-top: 27px;
+}
+
 
 .divider.dot5 {
   background: url('line-5dot-fullwidth.png') no-repeat;
