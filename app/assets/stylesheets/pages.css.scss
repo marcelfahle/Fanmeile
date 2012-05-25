@@ -235,7 +235,30 @@ h5.press {
 }
 .block.ad {
   padding-top: 27px;
+  position:relative;
+  z-index: 2000;
+  ul {
+    position: absolute;
+    list-style: none;
+    display: inline;
+    width: 580px;
+    top: 248px;
+
+    li {
+      display: inline;
+      margin-right: 15px;
+      width: 95px;
+      height: 17px;
+
+      a {
+        background: none;
+        text-decoration: none;
+      }
+
+    }
+  }
 }
+
 
 
 .divider.dot5 {
