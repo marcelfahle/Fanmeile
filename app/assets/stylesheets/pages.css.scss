@@ -181,7 +181,12 @@ h2 {
       padding-top: 8px;
       width: 215px;
       height: 35px;
-      a { text-decoration: none;  }
+      a { 
+        text-decoration: none !important;
+        color: #fff !important;
+        text-decoration: none !important;
+        background: none !important;
+      }
     }
     p.videos {
       background: url('arrow-blue.png') no-repeat;
