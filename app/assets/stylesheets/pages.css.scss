@@ -30,12 +30,12 @@
     margin: 0px;
     text-align: center;
     text-transform: uppercase;
-    background: url('line-5dot-fullwidth.png') 0px 1px no-repeat;
+    background: url('line-5dot-fullwidth.png') 0px 2px no-repeat;
     font-size: 18px;
     height: 15px;
 
     span {
-      background: url('headline-bg-5px1.png');
+      background: url('headline-bg-5px1.png') 0px 0px;
     }
   }
   div.col {
