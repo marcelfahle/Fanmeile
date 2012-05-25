@@ -53,7 +53,24 @@ footer {
       list-style: none;
       padding-left: 0;
       li {
-      
+      }
+    }
+  }
+  #bottomfooter {
+    clear: both;
+    width: 952px;
+    margin: 0 auto;
+    padding-top: 7px;
+    p {
+      color: #fff;
+      font-weight: bold;
+      font-family: Arial;
+      font-size: 12px;
+      text-transform: uppercase;
+      a {
+        margin-left: 20px;
+        text-decoration: none;
+        color: #fff;
       }
     }
   }
