@@ -11,6 +11,9 @@ class PagesController < ApplicationController
   def press
     @message = Message.new
   end
+
+  def imprint
+  end
   
   def create
     @message = Message.new(params[:message])

@@ -31,5 +31,7 @@ de:
       title: "Hyundai: Mission Auswärtsspiel"
     cocacola:
       title: "Coca-Cola Fankurve"
+    imprint:
+      title: "Impressum"
   footer:
     fbimg: "fb-link-de.png"
