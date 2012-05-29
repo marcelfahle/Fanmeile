@@ -64,7 +64,7 @@ set-up."
       ffunction: "function"
       fpressid: "presscard number*"
       mandatory: "* mandatory item"
-      fsendbutton: "/assets/button-send-de.png"
+      fsendbutton: "/assets/button-send-en.png"
     hyundai:
       title: "Hyundai: Mission Auswärtsspiel"
     cocacola:
