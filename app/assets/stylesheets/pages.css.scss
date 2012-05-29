@@ -32,10 +32,8 @@
     text-transform: uppercase;
     font-size: 18px;
     height: 15px;
+    text-indent: -9999em;
 
-    span {
-      background: url('headline-bg-5px1.png') 0px 0px;
-    }
   }
   div.col {
     float: left;
@@ -115,6 +113,19 @@ h2 {
 }
 .en .schedule h2 {
   background: url('headline-programme-en.png') no-repeat;
+}
+.de.fanfest h2 {
+  background: url('headline-fanfest-de.png') no-repeat;
+}
+.en.fanfest h2 {
+  background: url('headline-fanfest-en.png') no-repeat;
+}
+
+.de .map h4 {
+  background: url('headline-location-de.png') no-repeat;
+}
+.en .map h4 {
+  background: url('headline-location-en.png') no-repeat;
 }
 .block {
   width: 297px;
