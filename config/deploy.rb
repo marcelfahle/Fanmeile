@@ -3,8 +3,8 @@ require "bundler/capistrano"
 server "gedankenwerk.com", :web, :app, :db, primary: true
 
 set :application, "Fanmeile"
-set :user, "deployer"
-set :deploy_to, "/home/#{user}/apps/#{application}"
+set :user, "fanmeileberlinde"
+set :deploy_to, "/var/www/vhosts/fanmeile-berlin.de/httpdocs/app/"
 set :deploy_via, :remote_cache
 set :use_sudo, false
 
