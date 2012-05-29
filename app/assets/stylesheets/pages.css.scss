@@ -104,7 +104,7 @@ h2 {
   text-align: center;
   font-size: 25px;
   text-transform: uppercase;
-  height: 19px;
+  height: 24px;
   padding-top: 2px;
   text-indent: -999em;
 }
@@ -119,6 +119,19 @@ h2 {
 }
 .en.fanfest h2 {
   background: url('headline-fanfest-en.png') no-repeat;
+}
+.de.faq h2 {
+  background: url('headline-faq-de.png') no-repeat;
+  height: 29px;
+}
+.en.faq h2 {
+  background: url('headline-faq-en.png') no-repeat;
+}
+.de.press h2 {
+  background: url('headline-press-de.png') no-repeat;
+}
+.en.press h2 {
+  background: url('headline-press-en.png') no-repeat;
 }
 
 .de .map h4 {
