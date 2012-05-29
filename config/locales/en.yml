@@ -48,17 +48,22 @@ S-Bahn S1, S2 and S25 and U-Bahn U55 to 'Brandenburger Tor'</p>"
       title: "Review"
     press:
       title: "Press"
-      teaser: "Die <span>Fanmeile Berlin</span> 2012 wird in der Medienwelt großes Interesse auslösen. Zur besseren und problemlosen Versorgung der verschiedenen Medienvertreter werden Medien-Meetingpoints und eine Medien-Tribüne eingerichtet."
-      formhead: "Ihre Akkreditierung"
+      teaser: "The International <span>Fanfest Berlin</span> attracts
+widespread interest throughout the media world. To
+ensure the smooth and successful coordination of the
+many different media representatives, both
+Media-Meeting-Points and a Media Platform will be
+set-up."
+      formhead: "your Accreditation"
       contacthead: "Pressekontakt"
-      fname: "Vorname, Nachname*"
-      ftype: "Medium*"
-      fphone: "Telefonnummer*"
-      ffax: "Faxnummer"
-      femail: "E-Mail*"
-      ffunction: "Funktion"
-      fpressid: "Presseausweisnummer*"
-      mandatory: "* Pflichtfelder"
+      fname: "first name, last name*"
+      ftype: "media*"
+      fphone: "phonenumber*"
+      ffax: "faxnumber"
+      femail: "e-mail*"
+      ffunction: "function"
+      fpressid: "presscard number*"
+      mandatory: "* mandatory item"
       fsendbutton: "/assets/button-send-de.png"
     hyundai:
       title: "Hyundai: Mission Auswärtsspiel"
