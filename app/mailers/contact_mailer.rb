@@ -4,6 +4,6 @@ class ContactMailer < ActionMailer::Base
 
   def new_message(message)
     @message = message
-    mail(:subject => "[Fanmeile Berlin] #{message.subject}")
+    mail(:subject => "[Fanmeile Berlin] ")
   end
 end

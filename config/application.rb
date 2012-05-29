@@ -57,17 +57,17 @@ module Fanmeile
     config.assets.version = '1.0'
 
     config.action_mailer.smtp_settings = {
-      :address              => "gedankenwerk.com",
+      :address              => "fanmeile-berlin.com",
       :port                 => 587,
-      :domain               => "gedankenwerk.com",
-      :user_name            => "marcel.fahle@gedankenwerk.com",
-      :password             => "huhahu123",
+      :domain               => "fanmeile-berlin.com",
+      :user_name            => "info@fanmeile-berlin.com",
+      :password             => "totalgeheim",
       :authentication       => :plain,
       :enable_starttls_auto => true
     }
 
     config.action_mailer.default_url_options = {
-      :host => "gedankenwerk.com"
+      :host => "fanmeile-berlin.com"
     }
 
 
