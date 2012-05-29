@@ -7,7 +7,40 @@ en:
       schedule: "Schedule"
     fanfest:
       title: "Fanfest Berlin"
-      teaser: "<span>Berlin</span> hat mit seiner <span>Fanmeile</span> zu den internationalen Fussball-Großereignissen 2006, 2008 und 2010 weltweit für Furore, Aufsehen und Sympathie für die deutsche Hauptstadt und für Deutschland gesorgt."
+      teaser: "With its legendary <span>Fan Fest</span>, a celebration of football at
+its best, <span>Berlin</span> has successfully created a worldwide
+wave of enthusiasm, passion and friendliness for the
+German capital and for Germany."
+      p1: "<p>The unique pictures taken during all of the Fan Fest events
+highlight enthusiasm for sport as well as the hospitality and new
+found confidence of the Berliners and Germans.</p><p>Every day over 1 million people came to watch the games,
+celebrate and take in the breathtaking atmosphere.</p>"
+      p2: "<p>You can be a part of Germany’s biggest public viewing event and
+support your team. You can enjoy the unique atmosphere of the
+Fanfest Berlin and celebrate football with fans from all over
+the world!</p><p>Free entry!</p>"
+      hospitality: "<h5>VIP-Tickets for Company Events</h5>
+<p><strong>Are you planning on holding an exclusive, corporate event
+during the UEFA EURO 2012™?</strong></p>
+<p>After the success of the special events held during the 2006, 2008 and
+2010 Fan Fests, we are pleased to be able to offer you the VIP-Hospitality
+Area for company events during the UEFA EURO 2012™ in Berlin. </p>
+<p>You and your guests are invited to join the largest football party in the
+world and enjoy a unique as well as exclusive atmosphere in the
+Fanfest Berlin VIP-Hospitality Area.</p>
+<p>Please note that the VIP-Hospitality Area is located in a separate,
+enclosed area within the Fan Fest site. The public area is free of charge.</p>
+<p>For further information and requests please contact
+<a href='mailto:fanmeile@kit-group.org'>fanmeile@kit-group.org</a> </p>"
+      directions: "<h5>Arriving at venue</h5>
+<p>The event area is located in the heart of the city and can be reached by
+using many means of public transportation. It is also within walking
+distance of the city’s central train station, Berlin Hauptbahnhof. The main
+stage is located at the Brandenburg Gate.</p>
+<p><strong>approach with public transport:</strong></p>
+<p>S-Bahn S5, S7 and S75 to 'Bellevue' or ‘Hauptbahnhof’
+U-Bahn U2 to 'Potsdamer Platz' 
+S-Bahn S1, S2 and S25 and U-Bahn U55 to 'Brandenburger Tor'</p>"
     faq:
       title: "FAQ"
       shorttitle: "FAQ"
