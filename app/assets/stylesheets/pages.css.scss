@@ -30,7 +30,6 @@
     margin: 0px;
     text-align: center;
     text-transform: uppercase;
-    background: url('line-5dot-fullwidth.png') 0px 2px no-repeat;
     font-size: 18px;
     height: 15px;
 
@@ -83,6 +82,10 @@
     .slidedeck_frame {
       margin-bottom: 0;
     }
+    h4 {
+      text-indent: -999em;
+      background: url('headline-highlights-de.png') no-repeat;
+    }
   }
   .schedule {
 
@@ -104,13 +107,14 @@ h2 {
   font-size: 25px;
   text-transform: uppercase;
   height: 19px;
-  background: url('line-7dot-fullwidth.png') 0px 2px no-repeat;
   padding-top: 2px;
-  span {
-    background: url('header-h2-blank.jpg') 0px 2px no-repeat;
-    padding-left: 1px;
-    padding-right: 1px;
-  }
+  text-indent: -999em;
+}
+.de .schedule h2 {
+  background: url('headline-programme-de.png') no-repeat;
+}
+.en .schedule h2 {
+  background: url('headline-programme-en.png') no-repeat;
 }
 .block {
   width: 297px;
