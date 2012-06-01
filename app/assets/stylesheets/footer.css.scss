@@ -3,21 +3,73 @@ footer {
   min-width: 1152px;
   height: 748px;
   margin: 0 auto;
-  background: transparent url('footer-bg.png') top center repeat-x;
+  background-attachment: fixed;
+  background: transparent url('footer-bg.jpg') top center repeat-x;
+  background-position: center 234px ; 
   margin-top: -220px;
   position: relative;
   z-index: 1000;
   padding: 1px 0;
 
-  .sponsors{
+  .decor {
+    width: 100%;
+    height: 234px;
+    margin: 0;
+    background: transparent url('footer-bg-decor.png') top center repeat-x;
+  }
+
+  .sponsor-header{
     width: 698px;
-    height: 103px;
-    background: url('hyundai-sponsor-logo-no-coke.png') no-repeat;
+    height: 60px;
+    background: url('hyundai-sponsor-logo.png') no-repeat;
+
     /*background: url('hyundai-sponsor-logo.png') no-repeat;*/
     text-indent: -999em;
     margin: 0 auto;
-    margin-top: 230px;
-    margin-bottom: 40px;
+    margin-top: 0px;
+  }
+  .sponsor-links-wrapper {
+      margin: 0 auto;
+      width: 698px;
+      margin-bottom: 40px;
+
+    .sponsor-links {
+      height: 43px;
+      display: inline;
+      padding: 0px;
+
+      li {
+        display: inline-block;
+        background: url('hyundai-sponsor-logo.png') no-repeat;
+        width: 122px;
+        height: 43px;
+        text-indent: -999em;
+        /*border: 1px solid red;*/
+        margin-left: 6px;
+        margin-right: 6px;
+        a {
+          display: block;
+          height: 43px;
+          cursor: pointer;
+        }
+      }
+      #sponsor-canon {
+        background-position: 5px -60px;
+      }
+      #sponsor-carlsberg {
+        background-position: -145px -60px;
+      }
+      #sponsor-cocacola {
+        background-position: -298px -60px;
+      }
+      #sponsor-rbb {
+        background-position: -447px -60px;
+      }
+      #sponsor-rtl {
+        background-position: -590px -60px;
+      }
+
+    }
   }
 
   #footercontent {
