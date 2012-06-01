@@ -5,5 +5,5 @@
 $ ->
   $("body").css("background-color","#000"); 
   $("body").css("background-image","url('/assets/bg.jpg')"); 
-  $("body").css("background-position", "top center");
+  $("body").css("background-position", "center top");
   $("body").css("background-repeat", "no-repeat");
