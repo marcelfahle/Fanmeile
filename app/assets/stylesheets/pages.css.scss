@@ -130,10 +130,10 @@ h2 {
 .en.faq h2 {
   background: url('headline-faq-en.png') no-repeat;
 }
-.de.press h2 {
+.de.press h2, .de.success h2 {
   background: url('headline-press-de.png') no-repeat;
 }
-.en.press h2 {
+.en.press h2, .en.success h2 {
   background: url('headline-press-en.png') no-repeat;
 }
 .de.imprint h2 {

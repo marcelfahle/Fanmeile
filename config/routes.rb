@@ -2,6 +2,7 @@ Fanmeile::Application.routes.draw do
 
   match 'contact' => 'contact#new', :as => 'contact', :via => :get
   match 'contact' => 'contact#create', :as => 'contact', :via => :post
+  match 'success' => 'contact#success'
 
   scope ":locale", locale: /#{I18n.available_locales.join("|")}/  do
     match ':action', :controller => "pages"
