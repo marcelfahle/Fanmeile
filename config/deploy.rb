@@ -1,10 +1,10 @@
 require "bundler/capistrano"
 
-server "gedankenwerk.com", :web, :app, :db, primary: true
+server "176.58.106.139", :web, :app, :db, primary: true
 
 set :application, "Fanmeile"
-set :user, "fanmeileberlinde"
-set :deploy_to, "/var/www/vhosts/fanmeile-berlin.de/httpdocs/app/"
+set :user, "deployer"
+set :deploy_to, "/home/#{user}/apps/#{application}"
 set :deploy_via, :remote_cache
 set :use_sudo, false
 
@@ -18,14 +18,16 @@ ssh_options[:forward_agent] = true
 after "deploy", "deploy:cleanup" # keep only the last 5 releases
 
 namespace :deploy do
-  task :start do; end
-  task :stop do; end
-  task :restart, roles: :app, except: {no_release: true} do
-    run "touch #{deploy_to}/current/tmp/restart.txt"
+  %w[start stop restart].each do |command|
+    desc "#{command} unicorn server"
+    task command, roles: :app, except: {no_release: true} do
+      run "/etc/init.d/unicorn_#{application} #{command}"
+    end
   end
 
   task :setup_config, roles: :app do
-    sudo "ln -nfs #{current_path}/config/apache.conf /var/www/vhosts/fanmeile-berlin.de/conf/vhost.conf"
+    sudo "ln -nfs #{current_path}/config/nginx.conf /etc/nginx/sites-enabled/#{application}"
+    sudo "ln -nfs #{current_path}/config/unicorn_init.sh /etc/init.d/unicorn_#{application}"
     run "mkdir -p #{shared_path}/config"
     put File.read("config/database.example.yml"), "#{shared_path}/config/database.yml"
     puts "Now edit the config files in #{shared_path}."
