@@ -61,6 +61,7 @@ de:
       fpressid: "Presseausweisnummer*"
       mandatory: "* Pflichtfelder"
       fsendbutton: "/assets/button-send-de.png"
+      confirm: "<span>Vielen Dank!</span><br/>Wir haben Ihre E-Mail erhalten und werden sie so schnell wie möglich bearbeiten."
     hyundai:
       title: "Hyundai: Mission Auswärtsspiel"
     cocacola:

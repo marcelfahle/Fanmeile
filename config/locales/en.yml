@@ -60,6 +60,7 @@ S-Bahn S1, S2 and S25 and U-Bahn U55 to 'Brandenburger Tor'</p>"
       fpressid: "presscard number*"
       mandatory: "* mandatory item"
       fsendbutton: "/assets/button-send-en.png"
+      confirm: "<span>Thank you!</span><br/>We received your email and will get back to you as soon as possible."
     hyundai:
       title: "Hyundai: Mission Auswärtsspiel"
     cocacola:
