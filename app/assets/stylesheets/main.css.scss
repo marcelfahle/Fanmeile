@@ -3,6 +3,7 @@ body {
   /*background: #000 url("bg.jpg") top center no-repeat;*/
   background-color: #000;
 }
+
 #pagewrap {
   margin: 0 auto;
   width: 1152px;
@@ -102,6 +103,6 @@ body.fanfest .fanfest_nav a { color: #bdeb05 !important; }
 body.faq .faq_nav a { color: #bdeb05 !important; }
 body.press .press_nav a { color: #bdeb05 !important; }
 #mainwrapper {
-  width: 952px;
-  padding: 25px 100px 25px 100px;
+  width: 960px;
+  margin: 25px auto;
 }
