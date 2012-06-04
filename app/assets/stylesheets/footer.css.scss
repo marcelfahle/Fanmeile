@@ -19,18 +19,17 @@ footer {
   }
 
   .sponsor-header{
-    width: 698px;
+    width: 880px;
     height: 60px;
-    background: url('hyundai-sponsor-logo.png') no-repeat;
+    background: url('hyundai-sponsor-logo.png') top center no-repeat;
 
     /*background: url('hyundai-sponsor-logo.png') no-repeat;*/
     text-indent: -999em;
     margin: 0 auto;
-    margin-top: 0px;
   }
   .sponsor-links-wrapper {
       margin: 0 auto;
-      width: 698px;
+      width: 880px;
       margin-bottom: 40px;
 
     .sponsor-links {
@@ -41,32 +40,35 @@ footer {
       li {
         display: inline-block;
         background: url('hyundai-sponsor-logo.png') no-repeat;
-        width: 122px;
+        width: 140px;
         height: 43px;
         text-indent: -999em;
         /*border: 1px solid red;*/
-        margin-left: 6px;
-        margin-right: 6px;
+        margin-left: 0px;
+        margin-right: 0px;
         a {
           display: block;
           height: 43px;
           cursor: pointer;
         }
       }
+      #sponsor-mopo {
+        background-position: 0px -60px;
+      }
       #sponsor-canon {
-        background-position: 5px -60px;
+        background-position: -165px -60px;
       }
       #sponsor-carlsberg {
-        background-position: -145px -60px;
+        background-position: -315px -60px;
       }
       #sponsor-cocacola {
-        background-position: -298px -60px;
+        background-position: -475px -60px;
       }
       #sponsor-rbb {
-        background-position: -447px -60px;
+        background-position: -620px -60px;
       }
       #sponsor-rtl {
-        background-position: -590px -60px;
+        background-position: -765px -60px;
       }
 
     }
