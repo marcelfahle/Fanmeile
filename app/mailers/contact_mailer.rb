@@ -1,6 +1,6 @@
 class ContactMailer < ActionMailer::Base
   default from: "info@fanmeile.de"
-  default :to => "m.fahle@gmail.com"
+  default :to => "info@b2-berlin.de"
   default :bcc => "sascha.panter@gedankenwerk.com"
 
   def new_message(message)
