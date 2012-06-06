@@ -107,10 +107,7 @@
   margin: 0 auto;
   margin-top: 180px;
   width: 810px;
-  padding-left: 40px;
-  height: 800px;
-  overflow: scroll;
-  
+  padding-left: 20px;
   div.col {
     width: 360px; 
   }
@@ -124,6 +121,24 @@
     }
     ul {
       font-size: 12px;
+    }
+  }
+  h3.teaser {
+    font-size: 25px;
+    line-height: 25px;
+
+  }
+
+  div {
+    p {
+      font-size: 13px;
+    }
+    h5 {
+      font-size: 18px;
+      color: #bdeb05;
+      text-transform: uppercase;
+      margin-bottom: 20px;
+      line-height: 26px;
     }
   }
 }
