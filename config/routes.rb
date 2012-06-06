@@ -4,6 +4,10 @@ Fanmeile::Application.routes.draw do
   match 'contact' => 'contact#create', :as => 'contact', :via => :post
   match 'success' => 'contact#success'
 
+
+  match 'fbinfo' => 'facebook#info'
+  match 'fbfaq' => 'facebook#faq'
+
   scope ":locale", locale: /#{I18n.available_locales.join("|")}/  do
     match ':action', :controller => "pages"
     root to: 'pages#home'

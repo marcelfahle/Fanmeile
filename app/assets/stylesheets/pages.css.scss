@@ -101,6 +101,35 @@
   }
 }
 
+
+
+.facebook #mainwrapper {
+  margin: 0 auto;
+  margin-top: 180px;
+  width: 810px;
+  padding-left: 40px;
+  height: 800px;
+  overflow: scroll;
+  
+  div.col {
+    width: 360px; 
+  }
+  div.col.many {
+    h5 {
+      font-size: 18px;
+      margin-bottom: 0px;
+    }
+    p {
+      font-size: 12px;
+    }
+    ul {
+      font-size: 12px;
+    }
+  }
+}
+
+
+
 h2 {
   margin: 0;
   padding: 0;

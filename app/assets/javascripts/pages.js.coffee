@@ -3,7 +3,13 @@
 # You can use CoffeeScript in this file: http://jashkenas.github.com/coffee-script/
 
 $ ->
-  $("body").css("background-color","#000"); 
-  $("body").css("background-image","url('/assets/bg.jpg')"); 
-  $("body").css("background-position", "center top");
-  $("body").css("background-repeat", "no-repeat");
+  if $("body").hasClass('facebook') is false
+    $("body").css("background-color","#000"); 
+    $("body").css("background-image","url('/assets/bg.jpg')"); 
+    $("body").css("background-position", "center top");
+    $("body").css("background-repeat", "no-repeat");
+  else
+    $("body").css("background-color","#000"); 
+    $("body").css("background-image","url('/assets/bg-facebook.jpg')"); 
+    $("body").css("background-position", "center top");
+    $("body").css("background-repeat", "no-repeat");
