@@ -3,4 +3,30 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 body.facebook {
   background: #000 url('/assets/bg-facebook.jpg') center top no-repeat;
+  position: relative;
+
+  #fbsponsors {
+    position: absolute;
+    left: 50%;
+    margin-left: -272px;
+    margin-top: -28px;
+
+  }
+}
+
+body.facebook.info {
+  background: #000 url('/assets/bg-facebook-map.jpg') center top no-repeat;
+
+  .teaser {
+    margin-bottom: 10px !important;
+    font-size: 20px !important;
+  }
+  div.col {
+    margin-bottom: 10px !important;
+
+    h5 {
+      margin-top: 10px;
+      margin-bottom: 5px;
+    }
+  }
 }
