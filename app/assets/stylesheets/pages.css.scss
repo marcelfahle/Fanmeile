@@ -233,6 +233,14 @@ h2 {
       margin-bottom: 0;
       line-height: 10px;
     }
+    dd.fix {
+      line-height: 17px !important;
+      top: -17px;
+    }
+
+    dt.fix {
+      line-height: 17px !important;
+    }
     dt.full {
       width: 270px;
       font-weight: normal;
