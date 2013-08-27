@@ -34,10 +34,11 @@ end
 
 
 group :production do
-  gem 'pg'
+  #gem 'pg'
+  gem 'mysql2'
 end
 
 # Deploy with Capistrano
 gem 'capistrano'
-gem 'unicorn'
+#gem 'unicorn'
 

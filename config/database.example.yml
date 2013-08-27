@@ -24,7 +24,7 @@ production:
   reconnect: false
   database: fanmeile
   pool: 5
-  username: fanmeileuser
+  username: fanmeile_user
   password:
   host: localhost
 
