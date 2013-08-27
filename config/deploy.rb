@@ -37,4 +37,5 @@ task :bundle_install, :roles => :app do
   run "cd #{release_path} && bundle install"
   run "ln -nfs /home/#{user}/app_#{application}/shared/system/uploads #{release_path}/public/uploads"
   run "ln -nfs /home/#{user}/app_#{application}/shared/system/videos #{release_path}/public/videos"
+  run "ln -nfs /home/#{user}/app_#{application}/shared/database.yml #{release_path}/config/database.yml"
 end
